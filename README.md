@@ -3,8 +3,8 @@
 <br>
 Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
 <br>
-Sensitividade Média:  0.9088239267910185
-Especificidade Média:  0.9931198184992045
+Sensitividade Média:  0.9088239267910185<br>
+Especificidade Média:  0.9931198184992045<br>
 <br>
 
 Dataset origem:
