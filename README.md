@@ -3,6 +3,19 @@
 <br>
 Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
 <br>
+vp = verdadeiro positivo<br>
+vn = verdadeiro negativo<br>
+fp = falso positivo<br>
+fn = falso negativo<br>
+<br>
+Sensitividade = vp/(vp+fn)
+Especificidade =vn/(vn+fp)
+<br>
+Modelo treinado com 50% do dataset.<br>
+Validado em 10.000 x 50 testes com amostragens aleatórias.<br>
+<br>
+<br>
+<b>Resultado das médias dos testes:</b><br>
 Sensitividade Média:  0.9088239267910185<br>
 Especificidade Média:  0.9931198184992045<br>
 <br>
