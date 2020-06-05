@@ -1,2 +1,3 @@
-# serum-raman-spectroscopy-covid
-Serum Raman spectroscopy COVID-19
+# Serum Raman spectroscopy COVID-19<br>
+<br>
+Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
