@@ -8,8 +8,8 @@ vn = verdadeiro negativo<br>
 fp = falso positivo<br>
 fn = falso negativo<br>
 <br>
-Sensitividade = vp/(vp+fn)
-Especificidade =vn/(vn+fp)
+Sensitividade = vp/(vp+fn)<br>
+Especificidade =vn/(vn+fp)<br>
 <br>
 Modelo treinado com 50% do dataset.<br>
 Validado em 10.000 x 50 testes com amostragens aleatórias.<br>
