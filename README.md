@@ -3,6 +3,8 @@
 <br>
 Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
 <br>
+ <img src=”terminal.png”>
+<br>
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
 <br>
