@@ -6,6 +6,7 @@ Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
 Sensitividade Média:  0.9088239267910185<br>
 Especificidade Média:  0.9931198184992045<br>
 <br>
+![teste](10k.png?raw=true)
 
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
