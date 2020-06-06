@@ -12,7 +12,7 @@ Sensitividade = vp/(vp+fn)<br>
 Especificidade =vn/(vn+fp)<br>
 <br>
 Modelo treinado com 50% do dataset.<br>
-Validado em 10.000 testes em cada teste são realizadas 179 predições, com amostragens aleatórias.<br>
+Validado em 10.000 testes (em cada teste são realizadas 179 predições) com amostragens aleatórias.<br>
 <br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
