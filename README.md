@@ -26,7 +26,7 @@ fp = falso positivo<br>
 fn = falso negativo<br>
 <br>
 Sensitividade = vp/(vp+fn)<br>
-Especificidade =vn/(vn+fp)<br>
+Especificidade = vn/(vn+fp)<br>
 <br>
 Modelo treinado com 50% do dataset.<br>
 Validado em 100 testes (em cada teste são realizadas 179 predições) com amostragens aleatórias.<br>
@@ -42,6 +42,8 @@ Especificidade:  1.0 <br>
 <br>
 <b><i>TO DO</b></i><br>
 Processar o sinal mediante as áreas das importancias do feature, utilizando como limiar a média dos valores das 'importancias do feature', mantendo no processamento apenas as zonas que ultrapassarem este limiar e substituindo por zero as zonas que forem inferiores ao limiar, conforme vemos na imagem abaixo.
+<br>
+Filtrar o dataset neste padrão e treinar um modelo com este filtro, medir os resultados e ver se há aumento na performance da classificação.
 <br>
 
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/process.png" alt="Importância do Feature"/>
