@@ -19,7 +19,7 @@ Validado em 100 testes (em cada teste são realizadas 179 predições) com amost
 <i>Na versão anterior o modelo foi treinado com o sinal RAW, sem filtros, nesta nova versão, filtrei o sinal com Decomposição sazonal usando médias móveis, com período de 8 valores por média, utilizando a biblioteca Statsmodels (documentação: https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)<br></i><br>
 Desta forma obtivemos aumento de <b>3.377%</b> de precisão em relação ao modelo anterior na sensitividade  e de <b>1.2199%</b> em especificidade.<br>
 <br>
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/compara.png" alt="Comparação entre o sinal RAW e o processado"/>
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/mediamovel.png" alt="Comparação entre o sinal RAW e o processado"/>
 <br>
 <br>
 <br>
