@@ -23,7 +23,11 @@ Desta forma obtivemos aumento de <b>4.37276%</b> de precisão em relação ao mo
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Testes"/>
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importance_b.png" alt="Importância do Feature"/>
+<br>
+<br>
+
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Importância do Feature"/>
 <br>
 <br>
 <br>
