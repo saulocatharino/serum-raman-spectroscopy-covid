@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from joblib import dump, load
 import random
 import matplotlib.pyplot as plt
-
+from statsmodels.tsa.seasonal import seasonal_decompose
 fig = plt.figure()
 ax = fig.gca()
 
@@ -26,14 +26,17 @@ def get_percentual(a,b):
 
 historico_sensitividade = []
 historico_especificidade = []
-for i in range(0,10000):
+tests_num = 100
+for i in range(0,tests_num):
     df = open('raw_COVID.txt','r')
     df1 = []
 
     for e, i in enumerate(df):
         if e >0:
-            df1.append(i.split('\t'))
-
+            result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+            b = result.trend
+            b = b[np.logical_not(np.isnan(b))]
+            df1.append(b)
     df1 = np.array(df1).astype(float)
 
 
@@ -43,7 +46,10 @@ for i in range(0,10000):
 
     for e, i in enumerate(df):
         if e>0:
-            df2.append(i.split('\t'))
+            result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+            b = result.trend
+            b = b[np.logical_not(np.isnan(b))]
+            df2.append(b)
 
     df2 = np.array(df2).astype(float)
 
@@ -92,13 +98,14 @@ for i in range(0,10000):
 
 
 
-    CV_LR = load('modelo_selecionado.pkl')
+    CV_LR = load('modelo_selecionado_new.pkl')
 
     y_pred_LR = CV_LR.predict(x_test)
 
     f, p =0, 0
     vp,vn,fp,fn = 0,0,0,0
     for e, i in enumerate(y_pred_LR):
+
         if y_test[e] == y_pred_LR[e]:
             p +=1
             if int(y_pred_LR[e]) == 1:
@@ -137,4 +144,4 @@ ax.legend()
 print("-"*20)
 print("Sensitividade Média: ", np.array(historico_sensitividade).mean())
 print("Especificidade Média: ", np.array(historico_especificidade).mean())
-plt.savefig("10k.png")
+plt.savefig("100.png")
