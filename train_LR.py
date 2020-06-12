@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LogisticRegression
+from statsmodels.tsa.seasonal import seasonal_decompose
 from joblib import dump, load
 import random
 
@@ -19,8 +19,6 @@ def get_percentual(a,b):
 
 meta = 99.
 
-fig = plt.figure()
-ax = fig.gca()
 def run(meta):
     historico = []
     p1 = 0
@@ -38,8 +36,20 @@ def run(meta):
         df1 = []
         for e, i in enumerate(df):
             if e > 0:
-                df1.append(i.split('\t'))
-
+                result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+                a = result.seasonal
+                b = result.trend
+                b = b[np.logical_not(np.isnan(b))]
+                c = result.resid
+                c = c[np.logical_not(np.isnan(c))]
+                d = []
+                '''for item in a:
+                    d.append(item)
+                for item in b:
+                    d.append(item)
+                for item in c:
+                    d.append(item)'''
+                df1.append(b)
         df1 = np.array(df1).astype(float)
         df1 = df1.T
 
@@ -47,7 +57,20 @@ def run(meta):
         df2 = []
         for e, i in enumerate(df):
             if e > 0:
-                df2.append(i.split('\t'))
+                result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+                a = result.seasonal
+                b = result.trend
+                b = b[np.logical_not(np.isnan(b))]
+                c = result.resid
+                c = c[np.logical_not(np.isnan(c))]
+                d = []
+                '''for item in a:
+                    d.append(item)
+                for item in b:
+                    d.append(item)
+                for item in c:
+                    d.append(item)'''
+                df2.append(b)
 
         df2 = np.array(df2).astype(float)
         df2 = df2.T
@@ -101,7 +124,7 @@ def run(meta):
            
         p1,p2 = get_percentual(p,f)
         if p1 > maxima:
-            dump(lr, 'modelo_selecionado_new.pkl')
+            dump(lr, 'modelo_selecionado_new2.pkl')
             print("-"*20)
             print("Modelo Salvo")
             maxima = p1
@@ -116,16 +139,8 @@ def run(meta):
         print( "Erro: {}".format(round(p2,2)))
         print("Melhor acerto: ", maxima)
         print("Pior acerto: ", minima)
-        historico.append([p1,p2])
-        contagem +=1
-        if len(historico) > 200:
-            historico = historico[-200:]
-        ax.clear()
-        ax.plot(historico)
-        plt.pause(0.000001)
+
     return lr
 
 if __name__ == "__main__":
     lr  = run(meta)
-    plt.savefig('teste.png')
-
