@@ -20,7 +20,7 @@ Sensitividade:  0.9318181818181818 <br>
 Especificidade:  1.0 <br>
 
 <br>
-![teste](10k.png?raw=true)
+![Teste](10k.png?raw=true)
 
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
