@@ -2,19 +2,7 @@
 <b> Serum Raman spectroscopy COVID-19</b>
 <br>
 Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
-<br>
-vp = verdadeiro positivo<br>
-vn = verdadeiro negativo<br>
-fp = falso positivo<br>
-fn = falso negativo<br>
-<br>
-Sensitividade = vp/(vp+fn)<br>
-Especificidade =vn/(vn+fp)<br>
-<br>
-Modelo treinado com 50% do dataset.<br>
-Validado em 100 testes (em cada teste são realizadas 179 predições) com amostragens aleatórias.<br>
-<br>
-<br>
+
 <br>
 <i>Na versão anterior o modelo foi treinado com o sinal RAW, sem filtros, nesta nova versão, filtrei o sinal com Decomposição sazonal usando médias móveis, com período igual a 20 , utilizando a biblioteca Statsmodels (documentação: https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)<br></i><br>
 Desta forma obtivemos aumento de <b>4.37276%</b> de precisão em relação ao modelo anterior na sensitividade  e de <b>1.2199%</b> em especificidade.<br>
@@ -30,6 +18,19 @@ Desta forma obtivemos aumento de <b>4.37276%</b> de precisão em relação ao mo
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Importância do Feature"/>
 <br>
 <br>
+<br>
+<br>
+<br>
+vp = verdadeiro positivo<br>
+vn = verdadeiro negativo<br>
+fp = falso positivo<br>
+fn = falso negativo<br>
+<br>
+Sensitividade = vp/(vp+fn)<br>
+Especificidade =vn/(vn+fp)<br>
+<br>
+Modelo treinado com 50% do dataset.<br>
+Validado em 100 testes (em cada teste são realizadas 179 predições) com amostragens aleatórias.<br>
 <br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
