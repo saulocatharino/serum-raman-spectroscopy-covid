@@ -37,18 +37,7 @@ def run(meta):
         for e, i in enumerate(df):
             if e > 0:
                 result = seasonal_decompose(i.split('\t'), model='additive', period=8)
-                a = result.seasonal
                 b = result.trend
-                b = b[np.logical_not(np.isnan(b))]
-                c = result.resid
-                c = c[np.logical_not(np.isnan(c))]
-                d = []
-                '''for item in a:
-                    d.append(item)
-                for item in b:
-                    d.append(item)
-                for item in c:
-                    d.append(item)'''
                 df1.append(b)
         df1 = np.array(df1).astype(float)
         df1 = df1.T
@@ -58,18 +47,7 @@ def run(meta):
         for e, i in enumerate(df):
             if e > 0:
                 result = seasonal_decompose(i.split('\t'), model='additive', period=8)
-                a = result.seasonal
                 b = result.trend
-                b = b[np.logical_not(np.isnan(b))]
-                c = result.resid
-                c = c[np.logical_not(np.isnan(c))]
-                d = []
-                '''for item in a:
-                    d.append(item)
-                for item in b:
-                    d.append(item)
-                for item in c:
-                    d.append(item)'''
                 df2.append(b)
 
         df2 = np.array(df2).astype(float)
