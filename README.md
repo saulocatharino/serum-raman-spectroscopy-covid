@@ -30,6 +30,11 @@ Especificidade:  1.0 <br>
 <br>
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/100.png" alt="Testes"/>
 <br>
+<br>
+
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Testes"/>
+<br>
+<br>
 
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
