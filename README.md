@@ -22,6 +22,11 @@ Desta forma obtivemos aumento de <b>4.37276%</b> de precisão em relação ao mo
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/mediamovel.png" alt="Comparação entre o sinal RAW e o processado"/>
 <br>
 <br>
+
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Testes"/>
+<br>
+<br>
+<br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
 Sensitividade:  0.9629979914186166 <br>
@@ -30,11 +35,7 @@ Especificidade:  1.0 <br>
 <br>
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/100.png" alt="Testes"/>
 <br>
-<br>
 
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances.png" alt="Testes"/>
-<br>
-<br>
 
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
