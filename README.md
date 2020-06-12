@@ -25,7 +25,7 @@ Sensitividade:  0.9529703318667836 <br>
 Especificidade:  1.0 <br>
 
 <br>
-![Testes](https://github.com/github/serum-raman-spectroscopy-covid/blob/assets/10k.png)
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/10k.png" alt="My cool logo"/>
 <br>
 
 Dataset origem:
