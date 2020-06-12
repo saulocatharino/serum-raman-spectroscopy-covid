@@ -18,12 +18,6 @@ Desta forma obtivemos aumento de <b>4.37276%</b> de precisão em relação ao mo
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances_2.png" alt="Importância do Feature"/>
 <br>
 <br>
-<b><i>TO DO</b></i><br>
-Processar o sinal mediante as áreas das importancias do feature, utilizando como limiar a média dos valores das 'importancias do feature', mantendo no processamento apenas as zonas que ultrapassarem este limiar e substituindo por zero as zonas que forem inferiores ao limiar, conforme vemos na imagem abaixo.
-<br>
-
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/process.png" alt="Importância do Feature"/>
-<br>
 <br>
 <br>
 vp = verdadeiro positivo<br>
@@ -52,4 +46,10 @@ https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectr
 <br><br>
 Citação do dataset:<br>
 <i> Gang Yin, Lintao Li, Shun Lu, Yu Yin, Yuanzhang Su, Yilan Zeng, Mei Luo, Maohua Ma, Hongyan Zhou, Dezhong Yao, Gang Liu, Jinyi Lang.</i>
+<br>
+<b><i>TO DO</b></i><br>
+Processar o sinal mediante as áreas das importancias do feature, utilizando como limiar a média dos valores das 'importancias do feature', mantendo no processamento apenas as zonas que ultrapassarem este limiar e substituindo por zero as zonas que forem inferiores ao limiar, conforme vemos na imagem abaixo.
+<br>
+
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/process.png" alt="Importância do Feature"/>
 <br>
