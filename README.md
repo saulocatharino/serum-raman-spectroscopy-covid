@@ -16,8 +16,9 @@ Validado em 10.000 testes (em cada teste são realizadas 179 predições) com am
 <br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
-Sensitividade Média:  0.9088239267910185<br>
-Especificidade Média:  0.9931198184992045<br>
+Sensitividade:  0.9318181818181818 <br>
+Especificidade:  1.0 <br>
+
 <br>
 ![teste](10k.png?raw=true)
 
