@@ -1,7 +1,6 @@
 # Projeto Mayday - Sistema fase 3  
-<b> Serum Raman spectroscopy COVID-19</b>
-<br>
-Modelo de Regressão Logística para diagnóstico por Espectroscopia Raman.<br>
+<b> 
+Modelo de regressão logística para conjunto de espectro em intensidade de superficie aprimorada.<br></b>
 
 <br>
 <i>Na versão anterior o modelo foi treinado com o sinal RAW, sem filtros, nesta nova versão, filtrei o sinal com Decomposição sazonal usando médias móveis, com período igual a 20 , utilizando a biblioteca Statsmodels (documentação: https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)<br></i><br>
