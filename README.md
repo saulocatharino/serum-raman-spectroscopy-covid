@@ -16,8 +16,8 @@ Validado em 10.000 testes (em cada teste são realizadas 179 predições) com am
 <br>
 <br>
 <br>
-<i>No modelo anterior o modelo foi treinado com o sinal RAW, sem filtros, nesta nova versão, decompus o sinal com Decomposição sazonal usando médias móveis, com período de 8 valores por média.<br></i>
-Desta forma obtivemos aumento de 5.1% de precisão em relação ao modelo anterior.<br>
+<i>No modelo anterior o modelo foi treinado com o sinal RAW, sem filtros, nesta nova versão, decompus o sinal com Decomposição sazonal usando médias móveis, com período de 8 valores por média.<br></i><br>
+Desta forma obtivemos aumento de <b>5.1%</b> de precisão em relação ao modelo anterior.<br>
 <br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
