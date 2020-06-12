@@ -35,7 +35,6 @@ for i in range(0,tests_num):
         if e >0:
             result = seasonal_decompose(i.split('\t'), model='additive', period=8)
             b = result.trend
-            b = b[np.logical_not(np.isnan(b))]
             df1.append(b)
     df1 = np.array(df1).astype(float)
 
@@ -48,7 +47,6 @@ for i in range(0,tests_num):
         if e>0:
             result = seasonal_decompose(i.split('\t'), model='additive', period=8)
             b = result.trend
-            b = b[np.logical_not(np.isnan(b))]
             df2.append(b)
 
     df2 = np.array(df2).astype(float)
