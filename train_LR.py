@@ -36,7 +36,7 @@ def run(meta):
         df1 = []
         for e, i in enumerate(df):
             if e > 0:
-                result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+                result = seasonal_decompose(i.split('\t'), model='additive', period=30)
                 b = result.trend
                 df1.append(b)
         df1 = np.array(df1).astype(float)
@@ -46,7 +46,7 @@ def run(meta):
         df2 = []
         for e, i in enumerate(df):
             if e > 0:
-                result = seasonal_decompose(i.split('\t'), model='additive', period=8)
+                result = seasonal_decompose(i.split('\t'), model='additive', period=30)
                 b = result.trend
                 df2.append(b)
 
