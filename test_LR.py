@@ -107,15 +107,15 @@ for i in range(0,tests_num):
         if y_test[e] == y_pred_LR[e]:
             p +=1
             if int(y_pred_LR[e]) == 1:
-                vn +=1
-            if int(y_pred_LR[e]) == 0:
                 vp +=1
+            if int(y_pred_LR[e]) == 0:
+                vn +=1
         else:
             f += 1
             if int(y_pred_LR[e]) == 0:
-                fn +=1
-            if int(y_pred_LR[e]) == 1:
                 fp +=1
+            if int(y_pred_LR[e]) == 1:
+                fn +=1
 
     p1,p2 = get_percentual(p,f)
 
