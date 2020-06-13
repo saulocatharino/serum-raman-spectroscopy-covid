@@ -3,7 +3,9 @@
 Teste da Aplicação em:<br>
   http://161.35.238.44:8501/<br>
   <br>
-Para testar utilize os arquivos individuo_saudavel.txt/individuo_infectado.txt.<br><br>
+Para testar o webapp utilize os arquivos:<br>
+  individuo_saudavel.txt<br>
+  individuo_infectado.txt.<br><br>
 Modelo de regressão logística para conjunto de espectro em intensidade de superficie aprimorada.<br></b>
 
 <br>
