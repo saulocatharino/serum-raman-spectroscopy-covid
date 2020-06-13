@@ -1,5 +1,8 @@
 # Projeto Mayday - Sistema fase 3  
 <b> 
+Teste da Aplicação em:<br>
+  http://161.35.238.44:8501/<br>
+  <br>
 Modelo de regressão logística para conjunto de espectro em intensidade de superficie aprimorada.<br></b>
 
 <br>
