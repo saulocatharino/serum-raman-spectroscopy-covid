@@ -34,15 +34,7 @@ Especificidade Média:  1.0 <br>
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/1000.png" alt="Testes"/>
 <br>
 <br>
-<b><i>TO DO</b></i><br>
-Processar o sinal mediante as áreas das importancias do feature (quocientes dos pesos), utilizando como limiar a média dos valores das 'importancias do feature', mantendo no processamento apenas as zonas que ultrapassarem este limiar e substituindo por zero as zonas que forem inferiores ao limiar, conforme vemos na imagem abaixo.
-<br>
-Filtrar o dataset neste padrão e treinar um modelo com este filtro, medir os resultados e ver se há aumento na performance da classificação.
-<br>
 
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/process.png" alt="Importância do Feature"/>
-<br>
-<br>
 
 Dataset origem:
 https://springernature.figshare.com/articles/Data_and_code_on_serum_Raman_spectroscopy_as_an_efficient_primary_screening_of_coronavirus_disease_in_2019_COVID-19_/12159924
