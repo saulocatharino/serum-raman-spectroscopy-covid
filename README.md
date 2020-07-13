@@ -11,13 +11,6 @@ Modelo de Gaussian Process Classifier para conjunto de espectro em intensidade d
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importance_c.png" alt="Importância do Feature"/>
-<br>
-<br>
-
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/importances_2.png" alt="Importância do Feature"/>
-<br>
-<br>
 <br>
 <br>
 vp = verdadeiro positivo<br>
