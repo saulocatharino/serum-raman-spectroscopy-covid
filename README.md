@@ -3,7 +3,7 @@
 Para testar o webapp utilize os arquivos:<br>
   individuo_saudavel.txt<br>
   individuo_infectado.txt.<br><br>
-Modelo de regressão logística para conjunto de espectro em intensidade de superficie aprimorada.<br></b>
+Modelo de Gaussian Process Classifier para conjunto de espectro em intensidade de superficie aprimorada.<br></b>
 
 <br>
 <br>
@@ -33,8 +33,9 @@ Validado em 100 testes (em cada teste são realizadas 179 predições) com amost
 <br>
 <br>
 <b>Resultado das médias dos testes:</b><br>
-Sensitividade:  0.9629979914186166 <br>
-Especificidade:  1.0 <br>
+Sensitividade Média:  0.9837040865421662 <br>
+Especificidade Média:  1.0 <br>
+
 
 <br>
 <img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/100.png" alt="Testes"/>
