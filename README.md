@@ -1,8 +1,5 @@
 # Projeto Mayday - Sistema fase 3  
-<b> 
-Teste da Aplicação em:<br>
-  http://161.35.238.44:8501/<br>
-  <br>
+
 Para testar o webapp utilize os arquivos:<br>
   individuo_saudavel.txt<br>
   individuo_infectado.txt.<br><br>
