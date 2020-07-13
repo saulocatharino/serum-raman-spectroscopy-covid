@@ -31,7 +31,7 @@ Especificidade Média:  1.0 <br>
 
 
 <br>
-<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/100.png" alt="Testes"/>
+<img src="https://raw.githubusercontent.com/saulocatharino/serum-raman-spectroscopy-covid/master/1000.png" alt="Testes"/>
 <br>
 <br>
 <b><i>TO DO</b></i><br>
